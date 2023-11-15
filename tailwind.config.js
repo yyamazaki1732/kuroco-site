@@ -27,10 +27,53 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      spacing: {
+        0.5: "0.125rem", // 2px
+        0.75: "0.1875rem", // 3px
+        1.25: "0.3125em", // 5px
+        1.5: "0.375em", // 6px
+        2.25: "0.5625rem", // 9px
+        2.5: "0.625rem", // 10px
+        3.5: "0.875rem", // 14px
+        4.25: "1.0625rem", // 17px
+        4.5: "1.125rem", // 18px
+        5.5: "1.375rem", // 22px
+        6: "1.5rem", // 24px
+        6.5: "1.625rem", // 26px
+        7: "1.75rem", // 28px
+        7.5: "1.875rem", // 30px
+        8: "2rem", // 32px
+        8.5: "2.125rem", // 34px
+        10: "2.5rem", // 40px
+        10.5: "2.625rem", // 42px
+        12: "3rem", // 48px
+        12.5: "3.125rem", // 50px
+        13.5: "3.375rem", // 54px
+        14: "3.5rem", // 56px
+        14.5: "3.625rem", // 58px
+        15: "3.75rem", // 60px
+        16: "4rem", // 64px
+        16.5: "4.125rem", // 66px
+        17.5: "4.375rem", // 70px
+        18: "4.5rem", // 72px
+        18.5: "4.625rem", // 74px
+        22: "5.5rem", // 88px
+        22.5: "5.625rem", // 90px
+        25: "6.25rem", // 100px
+        26: "6.5rem", // 104px
+        26.5: "6.625rem", // 106px
+        30: "7.5rem", // 120px
+        30.5: "7.625rem", // 122px
+        34: "8.5rem", // 136px
+        34.5: "8.625rem", // 138px
+        35: "8.75rem", // 140px
+        38: "9.5rem", // 152px
+        38.5: "9.625rem", // 154px
+        40: "10rem", // 160px
+        42: "10.5rem", // 168px
+        42.5: "10.625rem", // 170px
+        45: "11.5rem", // 180px
+        50: "12.5rem", // 200px
       },
     },
     colors: () => ({
