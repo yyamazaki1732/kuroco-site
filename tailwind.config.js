@@ -37,6 +37,18 @@ const accentColor = {
   900: "#9F1043",
 };
 
+const neutralColor = {
+  100: "#FFF",
+  200: "#E6EAE9",
+  300: "#C4CAC9",
+  400: "#B2B8B7",
+  500: "#6F7675",
+  600: "#606463",
+  700: "#484B4B",
+  800: "#2E3433",
+  900: "#00100C",
+};
+
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -100,6 +112,9 @@ module.exports = {
       },
       accent: {
         ...accentColor,
+      },
+      neutral: {
+        ...neutralColor,
       },
     }),
   },
