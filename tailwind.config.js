@@ -117,6 +117,25 @@ module.exports = {
         ...neutralColor,
       },
     }),
+    fontFamily: {
+      display: [
+        "Helvetica Neue",
+        "Arial",
+        "Hiragino Kaku Gothic ProN",
+        "Hiragino Sans",
+        "Meiryo",
+        "sans-serif",
+      ],
+      body: [
+        "Montserrat",
+        "Helvetica Neue",
+        "Arial",
+        "Hiragino Kaku Gothic ProN",
+        "Hiragino Sans",
+        "Meiryo",
+        "sans-serif",
+      ],
+    },
   },
   plugins: [],
 };
