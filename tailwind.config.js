@@ -155,6 +155,12 @@ module.exports = {
       body16: ["1rem", "1.6"],
       body18: ["1.125rem", "1.6"],
     },
+    LetterSpacing: {
+      normal: "0",
+      wide: ".03em",
+      wider: ".05em",
+      widest: ".7em",
+    },
   },
   plugins: [],
 };
