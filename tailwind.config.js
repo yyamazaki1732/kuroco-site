@@ -196,6 +196,10 @@ module.exports = {
 
       "2xl": "1536px",
       // => @media (min-width: 1536px) { ... }
+
+      //media queries for hover
+      "media-hover": { raw: "(hover: hover) and (pointer: fine)" },
+      "media-active": { raw: "(hover: none) " },
     },
   },
   plugins: [],
