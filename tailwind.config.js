@@ -161,6 +161,15 @@ module.exports = {
       wider: ".05em",
       widest: ".07em",
     },
+    lineHeight: {
+      none: "1",
+      tight: "1.25",
+      snug: "1.375",
+      normal: "1.5",
+      relaxed: "1.7",
+      loose: "2",
+      "extra-loose": "2.4",
+    },
     fontWeight: {
       100: "100",
       100: "100",
