@@ -11,6 +11,7 @@ export const TopFv = () => {
       alt: "",
       width: 1180,
       height: 870,
+      className: "",
       priority: true,
       dual: {
         srcSet: "/pages/top/fv/img-top-fv-sp.webp",

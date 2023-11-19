@@ -5,6 +5,7 @@ type Img = {
   alt: string;
   width: number;
   height: number;
+  className?: string;
   priority?: boolean;
   dual?: {
     srcSet: string;
@@ -18,6 +19,7 @@ export const Img: React.FC<Img> = ({
   alt,
   width,
   height,
+  className,
   priority,
   dual,
 }) => {
@@ -25,6 +27,7 @@ export const Img: React.FC<Img> = ({
     <Image
       src={src}
       alt={alt}
+      className={className}
       width={width}
       height={height}
       priority={priority}
