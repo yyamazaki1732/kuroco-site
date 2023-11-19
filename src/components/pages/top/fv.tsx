@@ -15,7 +15,7 @@ export const TopFv = () => {
       dual: {
         srcSet: "/pages/top/fv/img-top-fv-sp.webp",
         media: "",
-        size: "800",
+        size: 800,
       },
     },
   };

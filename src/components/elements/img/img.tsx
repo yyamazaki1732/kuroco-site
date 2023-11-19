@@ -9,7 +9,7 @@ type Img = {
   dual?: {
     srcSet: string;
     media: string;
-    size: string;
+    size: number;
   };
 };
 
@@ -30,12 +30,13 @@ export const Img: React.FC<Img> = ({
       priority={priority}
     />
   );
+  const mediaSize = dual ? dual.size.toString() : "";
 
   return dual ? (
     <picture>
       <source
         srcSet={dual.srcSet}
-        media={`(${dual.media}-width: ${dual.size}px)`}
+        media={`(${dual.media}-width: ${mediaSize}px)`}
       />
       {img}
     </picture>
