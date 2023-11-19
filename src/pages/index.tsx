@@ -1,21 +1,9 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import Link from "next/link";
-
-const inter = Inter({ subsets: ["latin"] });
+import { TopPage } from "@/components/pages/top";
 
 export default function Home() {
   return (
-    <div className={`${inter.className}`}>
-      <Link href={"/posts/intro"}>Yusuke</Link>
-      <Image
-        src="/vercel.svg"
-        alt="Vercel Logo"
-        className="dark:invert"
-        width={100}
-        height={24}
-        priority
-      />
-    </div>
+    <>
+      <TopPage />
+    </>
   );
 }
