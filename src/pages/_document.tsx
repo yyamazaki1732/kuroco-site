@@ -10,7 +10,7 @@ export default function Document() {
         <meta property="og:url" content={siteData.url} />
         <meta property="og:site_name" content={siteData.title} />
       </Head>
-      <body className="text-primary-900 text-body16 font-400 font-body">
+      <body className="text-primary-900 text-body16 font-400">
         <Main />
         <NextScript />
       </body>
