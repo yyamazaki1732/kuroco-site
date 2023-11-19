@@ -1,4 +1,5 @@
 import { Img } from "@/components/elements/img";
+import { LogoMark } from "@/components/elements/logo";
 
 export const TopFv = () => {
   const layoutStyle = {
@@ -10,7 +11,7 @@ export const TopFv = () => {
     alt: "",
     width: 1180,
     height: 870,
-    className: "",
+    className: "object-cover h-full",
     priority: true,
     dual: {
       srcSet: "/pages/top/fv/img-top-fv-sp.webp",
@@ -22,8 +23,9 @@ export const TopFv = () => {
     <section>
       <div className="grid " style={layoutStyle}>
         <div className="bg-primary-600"></div>
-        <div className="bg-primary-300">
+        <div className="relative">
           <Img {...fvImgInfo} />
+          <LogoMark className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 opacity-30 w-1/2 h-auto" />
         </div>
       </div>
     </section>
