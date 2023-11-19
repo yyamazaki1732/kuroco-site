@@ -119,6 +119,7 @@ module.exports = {
     }),
     fontFamily: {
       display: [
+        "var(--font-montserrat)",
         "Helvetica Neue",
         "Arial",
         "Hiragino Kaku Gothic ProN",
@@ -127,7 +128,6 @@ module.exports = {
         "sans-serif",
       ],
       body: [
-        "Montserrat",
         "Helvetica Neue",
         "Arial",
         "Hiragino Kaku Gothic ProN",
