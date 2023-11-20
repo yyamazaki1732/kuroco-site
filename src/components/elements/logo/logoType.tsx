@@ -14,7 +14,7 @@ export const LogoType: React.FC<LogoTypeProps> = ({ className }) => {
       aria-label="Ma-net logo"
       className={className}
     >
-      <g clip-path="url(#clip0_47_3665)" fill="currentColor">
+      <g fill="currentColor">
         <path d="M0 29.015L4.6 0.334961H10.1L17.24 17.495L24.38 0.334961H29.88L34.48 29.015H27.86L25.58 11.905L18.4 29.015H16.08L8.9 11.905L6.62 29.015H0Z" />
         <path d="M58.0101 23.595H47.1701L44.9801 29.015H38.1001L49.6601 0.334961H55.7201L67.0301 29.015H60.1501L58.0001 23.595H58.0101ZM56.2001 18.525L52.6701 8.89496L49.1001 18.525H56.1901H56.2001Z" />
         <path d="M69.27 15.4248H80.28V20.8448H69.27V15.4248Z" />

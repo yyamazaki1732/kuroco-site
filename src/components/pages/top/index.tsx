@@ -1,5 +1,11 @@
-import { TopFv } from "@/components/pages/top/fv";
+import { Fv } from "@/components/pages/top/fv";
+import { Service } from "@/components/pages/top/service";
 
 export const TopPage = () => {
-  return <TopFv />;
+  return (
+    <>
+      <Fv />
+      <Service />
+    </>
+  );
 };

@@ -105,6 +105,15 @@ module.exports = {
         45: "11.5rem", // 180px
         50: "12.5rem", // 200px
       },
+      backgroundImage: () => ({
+        "left-margin": `linear-gradient(90deg, transparent 7vw, ${primaryColor["100"]} 7vw)`,
+      }),
+      maxWidth: {
+        normal: "calc((960/1360)*100%)",
+      },
+      aspectRatio: {
+        "1/1": "1 / 1",
+      },
     },
     colors: () => ({
       primary: {
@@ -146,6 +155,9 @@ module.exports = {
       heading18: ["1.125rem", "1"],
       heading20: ["1.25rem", "1"],
       heading24: ["1.5rem", "1"],
+      heading34: ["2.125rem", "1"],
+      heading28: ["1.75rem", "1"],
+      heading40: ["2.5rem", "1"],
       body10: ["0.625rem", "1.6"],
       body11: ["0.6875rem", "1.6"],
       body12: ["0.75rem", "1.6"],

@@ -6,9 +6,14 @@
   html {
     @apply font-body;
   }
-  a {
+  a, span {
     @apply block;
   }
+}
+
+:root {
+  --bg-edge: 7vw;
+  --bg-blue-left: linear-gradient(90deg, bg-neutral-100 var(--bg-edge), #f2f5fc var(--bg-edge));
 }
 
 body {

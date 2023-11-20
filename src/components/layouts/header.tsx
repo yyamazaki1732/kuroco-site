@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { PrimaryButton, AccentButton } from "@/components/elements/button";
-import { LogoType } from "@/components/elements/logo";
+import LogoType from "/public/icons/icon-logo-type.svg";
 
 export const Header = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -90,10 +90,10 @@ export const Header = () => {
   };
 
   return (
-    <header className="flex justify-between items-center p-1.5 bg-neutral-100 min-h-20">
+    <header className="fixed top-0 left-0 w-full z-50 flex justify-between items-center p-1.5 bg-neutral-100 min-h-[theme(spacing[22])]">
       <h1>
-        <Link href={"/"} className="w-max py-3.5">
-          <LogoType className={"w-[auto] h-5"} />
+        <Link href={"/"} className="w-[7rem]">
+          <LogoType className={"w-full h-[auto]"} title={"Ma-net logo"} />
         </Link>
       </h1>
       <nav>
